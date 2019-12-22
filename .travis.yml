@@ -10,7 +10,7 @@ scripts:
 
 Deploy:
     provoider: elasticbeanstalk
-    region: "ap-south-2"
+    region: "ap-south-1"
     app: "docker-react"
     env: "docker-env"
     bucket_name: "arn:aws:s3:::elasticbeanstalk-ap-south-1-186685697412"
